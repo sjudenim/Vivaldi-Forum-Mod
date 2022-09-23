@@ -429,6 +429,9 @@ select:hover {
   letter-spacing: 0.5px;
   padding: 2px 0;
 }
+#selectMods span:hover {
+  color: var(--colorHi);
+}
 #selectMods span::before {
   content: "\25ef";
   color: var(--colorFg);
